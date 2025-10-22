@@ -1,0 +1,43 @@
+#h2{
+    background-color: aquamarine;
+    width: 50%;
+}
+#container1{
+    color: white;
+    width: 1000px;
+    height: 600px;
+   background-image: url("../image/Image.jpg");
+   background-size: cover;
+}
+#container2{
+    color: white;
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(to right, #403B4A, #E7E9BB);
+    margin-top: 10px;
+    overflow: auto;
+}
+#container3{
+    width: 1000px;
+    height: 600px;
+    background-image: radial-gradient(#403B4A, #E7E9BB);
+    margin-top: 10px;
+
+}
+#container4{
+    border-width: 10px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 90px;
+    padding: 80px;
+}
+#btn{
+    color: whitesmoke;
+    background-color: blue;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border-color: red;
+    border-width: 2px;
+}
+    
