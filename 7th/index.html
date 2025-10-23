@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display Properties </title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {background-color: orange;
+            display: inline;
+           }
+        p {
+            background-color: orangered;
+            color: whitesmoke;
+            display: inline;
+        }
+        .cont {
+           margin: 50px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+         justify-content: space-between;
+        }
+        .div1 {
+            background-color: blanchedalmond;
+            width: 200px;
+            height: 200px;
+        }
+        .div2 {
+            background-color: aquamarine;
+            width: 150px;
+            height: 150px;
+        }
+        .navbar {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            color: whitesmoke;
+            background-color: darkred;
+        }
+        .navbar a {
+            color: whitesmoke;
+            margin: 10px;
+            text-decoration: none;
+        }
+       .navbar a:hover{
+            color: orange;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div style="margin-left: 15px;"><h2>Real Madrid</h2></div>
+        <div style="margin-right: 15px;"><a href="https://www.google.com/search?q=real+madrid&rlz=1C5CHFA_enPK1184PK1184&oq=real+&gs_lcrp=EgZjaHJvbWUqFAgAECMYJxhGGP0BGOMCGIAEGIoFMhQIABAjGCcYRhj9ARjjAhiABBiKBTIMCAEQLhgnGIAEGIoFMgYIAhBFGDkyCggDEAAYsQMYgAQyEAgEEAAYgwEYsQMYgAQYigUyBggFEEUYPTIGCAYQRRg9MgYIBxBFGDzSAQgzMTE4ajBqN6gCCLACAfEF1xB-cU-8pCc&sourceid=chrome&ie=UTF-8#sie=t;/m/06l22;2;/m/09gqx;bs;hd;;;;2025-10-22T19:00:00Z">Matches</a><a href="">Tickets</a><a href="">Results</a><a href="">Shop</a><a href="">Stats</a></div>
+    </div>
+   
+    <div class="p1">
+    <h1>Real Madrid Match Summary</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, cumque odio blanditiis eius ipsa deleniti ex explicabo similique recusandae dolorum ad rem itaque non libero? Dignissimos dicta quaerat laboriosam quia?</p>
+    </div>
+    <div class="cont">
+    <div class="div1"><h2>1</h2></div>
+    <div class="div2"><h2>2</h2></div>
+    <div class="div1"><h2>3</h2></div>
+    <div class="div2"><h2>4</h2></div>
+    <div class="div1"><h2>5</h2></div>
+    <div class="div2"><h2>6</h2></div>
+    </div>
+</body>
+</html>
