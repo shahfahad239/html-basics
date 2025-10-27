@@ -1,74 +1,67 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 .cont1 {
-       height: 400px;
-       width: 100%;
-       background-color: palevioletred;
-       
+  height: 400px;
+  width: 100%;
+  background-color: palevioletred;
 }
-.f1 img{
-    height: 150px;
-    width:120px ;
-    border-radius: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
-    float: left;
+.f1 img {
+  height: 150px;
+  width: 120px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
 }
-.f1{
-    height: 600px;
-    width: 400px;
-    border: 3px solid gray;
-    border-radius: 20px;
+.f1 {
+  height: 600px;
+  width: 400px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: aquamarine;
+  position: relative;
+  margin-left: 50px;
+
+  bottom: 300px;
+  overflow: auto;
+  transform: rotate(6.5deg);
+  transition: 2s;
+}
+.f1:hover {
+  background-color: antiquewhite;
+  transform: rotate(0deg);
+  width: 500px;
+  height: 700px;
+  bottom: 350px;
+}
+.f2 img {
+  height: 150px;
+  width: 120px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.f2 {
+  height: 600px;
+  width: 400px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  background-color: aquamarine;
+  position: relative;
+  margin-left: 50px;
+
+  bottom: 300px;
+  overflow: auto;
+  animation: hover;
+  animation-duration: 5s;
+}
+@keyframes hover {
+  from {
     background-color: aquamarine;
-     position: relative;
-    margin-left: 50px;
-   
-    bottom: 300px;
-    overflow: auto;
-    transform: rotate(6.5deg);
-    transition: 2s;
-}
-.f1:hover{
+  }
+  to {
     background-color: antiquewhite;
-    transform: rotate(0deg);
-    width: 500px;
-    height: 700px;
-    bottom:350px ;
-    
+  }
 }
-.f2 img{
-    height: 150px;
-    width:120px ;
-    border-radius: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
-    float: left;
-}
-.f2{
-    height: 600px;
-    width: 400px;
-    border: 3px solid gray;
-    border-radius: 20px;
-    background-color: aquamarine;
-     position: relative;
-    margin-left: 50px;
-   
-    bottom: 300px;
-    overflow: auto;
-    animation: hover ;
-    animation-duration: 5s ;
-    }
-    @keyframes hover {
-        from{
-            background-color: aquamarine;
-        }
-        to{
-            background-color: antiquewhite;
-        }
-        
-    }
-
-
-
-   
